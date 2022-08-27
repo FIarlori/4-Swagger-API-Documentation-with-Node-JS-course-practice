@@ -31,7 +31,7 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
  * @swagger
  * /:
  *  get:
- *      summary: AA This api is used to check if get method is working or not
+ *      summary:  This api is used to check if get method is working or not
  *      description: This api is used to check if get method is working or not
  *      responses:
  *          200:
@@ -48,9 +48,9 @@ app.get("/", (req, resp) => {
  *          Book:
  *              type: object
  *              properties:
- *                  id:
+ *                 id:
  *                      type: integer
- *                  name:
+ *                 name:
  *                      type: string
  */
 
